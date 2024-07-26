@@ -83,6 +83,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
     alias привет='apt update && apt upgrade -y'
+    alias gitstat='git status -b'
+    alias sgitstat='git status -s -b'
 fi
 
 # colored GCC warnings and errors
